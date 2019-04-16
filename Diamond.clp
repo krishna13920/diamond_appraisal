@@ -11,7 +11,7 @@
 (defrule cost
   =>
 (printout t "enter color ")
-(bind ?colors (ready))
+(bind ?colors (read))
 (printout t "enter Clarity ")
 (bind ?claritys (read))
 (printout t "enter carats ")

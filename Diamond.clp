@@ -33,3 +33,8 @@
 (printout t " price is  " ?price crlf)
 
 )
+(defrule get-diamond-color
+   =>
+   (printout t "what is the color of the diamond? ")
+   (bind ?response (read))
+   (assert ()))

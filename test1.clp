@@ -1320,14 +1320,14 @@
    (diamond (color  D) (clarity  VS ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
 =>
 (bind ?value (* 96  2.50 1000))
-(printout t "The value of the diamond with the given specifications is---$" ?value 
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
 
 ;******************************************************
 (defrule diamond-value-207
    (diamond (color  E) (clarity  VS ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
 =>
 (bind ?value (* 89  2.50 1000))
-(printout t "The value of the diamond with the given specifications is---$" ?value
+(printout t "The value of the diamond with the given specifications is---$" ?value))
 
 ;******************************************************
 (defrule diamond-value-208

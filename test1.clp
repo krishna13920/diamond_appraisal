@@ -798,3 +798,680 @@
 =>
 (bind ?value (* 56  2.50 1000))
 (printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-195
+   (diamond (color  D) (clarity  IF ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 138  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-196
+   (diamond (color  E) (clarity  IF ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 112  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-197
+   (diamond (color  F) (clarity  IF ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 97  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-198
+   (diamond (color  G) (clarity  IF ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 82  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-199
+   (diamond (color H ) (clarity  IF ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 71  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-200
+   (diamond (color  I) (clarity  IF ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 55  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-201
+   (diamond (color  D) (clarity  VVS ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 107  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-202
+   (diamond (color  E) (clarity  VVS ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 104  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-202
+   (diamond (color  F) (clarity  VVS ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 90  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-203
+   (diamond (color  G) (clarity  VVS ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 80  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-204
+   (diamond (color  H) (clarity  VVS ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 64  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-205
+   (diamond (color  I) (clarity  VVS ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 53  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-206
+   (diamond (color  D) (clarity  VS ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 96  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value 
+
+;******************************************************
+(defrule diamond-value-207
+   (diamond (color  E) (clarity  VS ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 89  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value
+
+;******************************************************
+(defrule diamond-value-208
+   (diamond (color  F) (clarity  VS ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 75  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value
+
+;******************************************************
+(defrule diamond-value-209
+   (diamond (color  G) (clarity  VS ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 71  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value 
+
+;******************************************************
+(defrule diamond-value-210
+   (diamond (color  H) (clarity  VS ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 60  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value 
+
+;******************************************************
+(defrule diamond-value-211
+   (diamond (color  I) (clarity  VS ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 51  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value 
+
+;******************************************************
+(defrule diamond-value-212
+   (diamond (color  D) (clarity  SI ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 70  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value 
+
+
+;******************************************************
+(defrule diamond-value-213
+   (diamond (color  E) (clarity  SI ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 66  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value 
+
+
+;******************************************************
+(defrule diamond-value-214
+   (diamond (color  F) (clarity  SI ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 64  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value 
+
+
+;******************************************************
+(defrule diamond-value-215
+   (diamond (color  G) (clarity  SI ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 62  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value 
+
+
+;******************************************************
+(defrule diamond-value-316
+   (diamond (color  H) (clarity  SI ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 55  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value 
+
+
+;******************************************************
+(defrule diamond-value-317
+   (diamond (color  I) (clarity  SI ) (cut square) (carat 2.00|2.10|2.20|2.30|2.40|2.50|2.60|2.70|2.80|2.90|2.99))  
+=>
+(bind ?value (* 47  2.50 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value 
+
+
+(defrule diamond-value-216
+   (diamond (color  D) (clarity  IF ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 462 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-217
+   (diamond (color  E) (clarity  IF ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 307 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-218
+   (diamond (color  F) (clarity  IF ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 259 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-219
+   (diamond (color  G) (clarity  IF ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 213 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-220
+   (diamond (color  H) (clarity  IF ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 163 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-221
+   (diamond (color  I) (clarity  IF ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 124 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-222
+   (diamond (color  D) (clarity  VVS ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 328 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-223
+   (diamond (color  E) (clarity  VVS ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 282 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-224
+   (diamond (color  F) (clarity  VVS ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 237 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-225
+   (diamond (color  G) (clarity  VVS ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 203 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-226
+   (diamond (color  H) (clarity  VVS ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 158 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-227
+   (diamond (color  I) (clarity  VVS ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 121 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-228
+   (diamond (color  D) (clarity  VS ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 255 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-229
+   (diamond (color  E) (clarity  VS ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 214 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-230
+   (diamond (color  F) (clarity  VS ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 190 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-231
+   (diamond (color  G) (clarity  VS ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 163 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-232
+   (diamond (color  H) (clarity  VS ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 135 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-233
+   (diamond (color  I) (clarity  VS ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 105 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-234
+   (diamond (color  D) (clarity  SI ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 154 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-235
+   (diamond (color  E) (clarity  SI ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 145 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-236
+   (diamond (color  F) (clarity  SI ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 134 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-237
+   (diamond (color  G) (clarity  SI ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 119 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-238
+   (diamond (color  H) (clarity  SI ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 106 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-239
+   (diamond (color  I) (clarity  SI ) (cut round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 91 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-240
+   (diamond (color  D) (clarity  IF ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 276 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-241
+   (diamond (color  E) (clarity  IF ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 211 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-242
+   (diamond (color  F) (clarity  IF ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 204 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-243
+   (diamond (color  G) (clarity  IF ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 172 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-244
+   (diamond (color  H) (clarity  IF ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 140 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-245
+   (diamond (color  I) (clarity  IF ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 115 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-246
+   (diamond (color  D) (clarity  VVS ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 250 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-247
+   (diamond (color  E) (clarity  VVS ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 203 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-248
+   (diamond (color  F) (clarity  VVS ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 193 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-249
+   (diamond (color  G) (clarity  VVS ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 160 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-250
+   (diamond (color  H) (clarity  VVS ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 129 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-251
+   (diamond (color  I) (clarity  VVS ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 112 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-251
+   (diamond (color  D) (clarity  VS ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 177 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-252
+   (diamond (color  E) (clarity  VS ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 151 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-253
+   (diamond (color  F) (clarity  VS ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 146 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-254
+   (diamond (color  G) (clarity  VS ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 135 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-255
+   (diamond (color  H) (clarity  VS ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 117 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-256
+   (diamond (color  I) (clarity  VS ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 96 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-257
+   (diamond (color  D) (clarity  SI ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 117 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-258
+   (diamond (color  E) (clarity  SI ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 111 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-259
+   (diamond (color  F) (clarity  SI ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 107 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-260
+   (diamond (color  G) (clarity  SI ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 99 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-261
+   (diamond (color  H) (clarity  SI ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 94 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-262
+   (diamond (color  I) (clarity  SI ) (cut semi-round) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 70 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-263
+   (diamond (color  D) (clarity  IF ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 265 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-264
+   (diamond (color  E) (clarity  IF ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 167 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-265
+   (diamond (color  F) (clarity  IF ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 142 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-266
+   (diamond (color  G) (clarity  IF ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 125 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-267
+   (diamond (color  H) (clarity  IF ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 105 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-268
+   (diamond (color  I) (clarity  IF ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 91 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-269
+   (diamond (color  D) (clarity  VVS ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 168 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-270
+   (diamond (color  E) (clarity  VVS ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 146 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-271
+   (diamond (color  F) (clarity  VVS ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 137 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-272
+   (diamond (color  G) (clarity  VVS ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 120 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-273
+   (diamond (color  H) (clarity  VVS ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 101 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-274
+   (diamond (color  I) (clarity  VVS ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 88 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-275
+   (diamond (color  D) (clarity  VS ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 144 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-276
+   (diamond (color  E) (clarity  VS ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 133 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-277
+   (diamond (color  F) (clarity  VS ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 125 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-278
+   (diamond (color  G) (clarity  VS ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 111 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-279
+   (diamond (color  H) (clarity  VS ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 95 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-280
+   (diamond (color  I) (clarity  VS ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 81 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-281
+   (diamond (color  D) (clarity  SI ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 101 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-282
+   (diamond (color  E) (clarity  SI ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 97 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-283
+   (diamond (color  F) (clarity  SI ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 87 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-284
+   (diamond (color  G) (clarity  SI ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 79 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-285
+   (diamond (color  H) (clarity  SI ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 73 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
+
+;******************************************************
+(defrule diamond-value-286
+   (diamond (color  D) (clarity  SI ) (cut squares) (carat 3.00|3.10|3.20|3.30|3.40|3.50|.60|3.70|3.80|3.90|3.99))  
+=>
+(bind ?value (* 3.5 63 1000))
+(printout t "The value of the diamond with the given specifications is---$" ?value ))
